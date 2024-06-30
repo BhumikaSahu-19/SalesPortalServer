@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
-mongoose.connect("mongodb://127.0.0.1:27017/SalesData", {
+mongoose.connect("mongodb+srv://Bhumi_1234:<password>@cluster0.jdfqtul.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
